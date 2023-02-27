@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<style>
+    body {
+        background-color: rgb(234, 232, 232);
+    }
+
+    .sangam {
+        background-image: url(https://media.istockphoto.com/id/1442974342/photo/thinking-man-computer-coding-software-development-and-programming-for-writing-code-media.jpg?s=1024x1024&w=is&k=20&c=EsuRPdOaPal-Pp8i0C0YkathGKz3y1k9rneJ8GFPKIk=);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 510px;
+    }
+
+    .sangam2 {
+        padding-left: 55px;
+        padding-top: 100px;
+        color: black;
+    }
+
+    .sangam3 {
+        height: 580px;
+        width: 500px;
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    .sangam4 {
+        padding-left: 35px;
+    }
+
+    .sangam6 {
+        position: relative;
+        left: 50px;
+    }
+
+    .sangam7 {
+        position: relative;
+
+        right: 50px;
+    }
+
+    .sangam8 {
+        background-color: white;
+    }
+
+    .sangam9 {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .sangam10 {
+        font-size: 57px;
+    }
+
+    .sangam11 {
+        height: 265px;
+
+    }
+
+    .sangam12 {
+        font-size: 60px;
+        position: relative;
+        bottom: 59px;
+        left: 235px;
+        border: 0px white;
+        border-radius: 9px;
+        background-color: rgb(255, 248, 248);
+    }
+
+    .sangam13 {
+        position: relative;
+        bottom: 54px;
+    }
+
+    .sangam15 {
+        font-size: 62px;
+    }
+
+    .sangam16 {
+        font-size: 55px;
+
+    }
+
+    .sangam17 {
+        border: 1px;
+        border-radius: 55%;
+    }
+
+    .sangam18 {
+        padding-left: 78px;
+    }
+
+    .sangam19 {
+        background-color: rgb(234, 232, 232);
+    }
+
+    .sangam20 {
+        position: relative;
+        left: 118px;
+        width: 1020px;
+    }
+
+    .sangam21 {
+        border: 1px solid white;
+        border-radius: 17px;
+        width: 940px;
+        position: relative;
+        bottom: 44px;
+        right: 12px;
+    }
+
+    .sangam22 {
+        position: relative;
+        left: 260px;
+    }
+
+    .sangam23 {
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .sangam24 {
+        background-color: rgb(205, 224, 226);
+    }
+
+    .sangam25 {
+        position: relative;
+        left: 175px;
+        bottom: 20px;
+    }
+
+    .sangam26 {
+        background-color: rgb(203, 220, 222);
+    }
+
+    .sangam27 {
+        height: 70px;
+    }
+
+    .sangam28 {
+        position: relative;
+        top: 23px;
+    }
+
+    .rahul17:hover {
+        background-color: rgb(245, 249, 37);
+    }
+
+    .rahul18:hover {
+        background-color: black;
+        color: rgb(248, 252, 214);
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .rahul19:hover {
+        background-color: rgb(77, 157, 249);
+        color: azure;
+        font-size: 24px;
+    }
+
+    .rahul20:hover {
+        background-color: rgb(212, 66, 190);
+        color: azure;
+        font-size: 24px;
+    }
+
+    .rahul21 {
+        color: rgb(17, 249, 17);
+    }
+
+    .rahul21:hover {
+        color: rgb(253, 212, 10);
+    }
+
+    /* media queries start */
+
+    @media(max-width:500px) {
+        .bor {
+            font-size: 45px;
+        }
+
+        .sangam2 {
+            font-size: 13px;
+            position: relative;
+            right: 40px;
+        }
+
+        .sangam {
+            background-size: cover;
+            height: 450px;
+            width: 400px;
+        }
+
+        .sangam3 {
+            height: 400px;
+            position: relative;
+            right: 10px;
+            width: 200px;
+            height: 350px;
+        }
+
+        .sangam4 {
+            font-size: 10px;
+            position: relative;
+            right: 45px;
+        }
+
+        .bor4 {
+            width: 380px;
+            position: relative;
+            right: 210px;
+            text-align: center;
+        }
+
+        .bor5 {
+            position: relative;
+            right: 190px;
+            font-size: 15px;
+        }
+
+        .sangam7 {
+            height: auto;
+        }
+
+
+    }
+</style>
+
+
+
+<body>
+    <!-- Navbar st -->
+
+    <nav class="navbar navbar-expand-lg bg-light py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-5 rahul17" href="#"><img style="width: 20px;"
+                    src="data:image/png;base64,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"
+                    alt=""> <b class="bor">SoftwareM4</b></a>
+
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link rahul18 " href="#">Home</a>
+                    <a class="nav-link rahul18" href="#">About</a>
+                    <a class="nav-link rahul18" href="#">Sevices</a>
+                    <a class="nav-link rahul18" href="#">Contact</a>
+                </div>
+                <div style="position: relative; left: 350px;" class="gap-5">
+                    <i class="rahul19 bi bi-facebook"></i>
+                    <i class="rahul19 bi bi-twitter"></i>
+                    <i class="rahul20 bi bi-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar end-->
+
+
+    <!--Software app 1st st  -->
+    <div class="sangam">
+        <div class="container">
+            <div class="container-fuild">
+                <div class="sangam2">
+
+                    <h5>Developer company</h5>
+                    <h1>Software App</h1>
+                    <br><br>
+                    <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            <br>
+                            Lorem ipsum dolor sit amet consectetur.</b>
+                    </p>
+                    <br>
+                    <button type="button" class="btn btn-primary fs-5">Our Services</button>
+                    <button type="button" class="btn btn-primary fs-5">Learn More</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!--Software app 1st end  -->
+
+    <!-- .core features st  -->
+    <div class="container sangam5  d-flex">
+        <img class="sangam3"
+            src="https://media.istockphoto.com/id/1289158515/photo/woman-working-at-computer-service.jpg?s=1024x1024&w=is&k=20&c=sU1YG6wAnWqE7woFEk7aTK9qgNe20YXjARoR4bGal24="
+            alt="">
+        <div class="sangam4">
+            <p><b>Core features</b></p>
+            <h1 style="font-size: 60px;"><b> Best Business <br>Software Solution</b></h1>
+            <br>
+            <div class="container">
+                <div class="row bor4">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="text-danger fs-5 bi bi-palette"></i>
+                                <br>
+                                <span><b>Design</b> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="text-danger fs-5 bi bi-hand-index-thumb"></i>
+                                <br>
+                                <span><b>Usages</b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="text-danger fs-5 bi bi-people-fill"></i>
+                                <br>
+                                <span><b>Testing</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="bor5">
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                <br>Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <br>
+            <button class="bor5" type="button" class="btn btn-outline-danger fs-5"><b>Read more</b></button>
+        </div>
+    </div>
+    <!-- .core features end  -->
+    <br><br><br>
+
+    <!-- app downlod st -->
+    <div class="container bg-light d-flex justify-content-between sangam6">
+        <div>
+            <br>
+            <h6 style="color:rgb(163, 163, 159);"><b>App Download</b> </h6>
+            <br>
+            <h1 style="font-size: 60px;">
+                <b>You can control <br>direct from your <br>mobile.
+            </h1></b>
+        </div>
+        <img class="sangam7" style="height: 410px;"
+            src="https://images.unsplash.com/photo-1575996381143-feff6406de4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="">
+
+    </div>
+    <br>
+    <br>
+    <!-- app downlod end -->
+
+
+    <!-- our goal st -->
+    <div class="sangam8">
+        <br>
+        <br>
+        <div class="sangam9">
+            <h4><b>Our goal</b></h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla saepe eum, ut non aperiam ab numquam
+                similique
+                eligendi. Illum neque officia beatae, eum suscipit esse dolorem nemo cum animi eaque ratione laborum
+                alias.
+                Sapiente atque unde cum odio mollitia nulla, voluptatem magni esse? Nostrum officia nam quod rerum
+                beatae Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, facilis? Lorem ipsum dolor, sit amet
+                consectetur
+                adipisicing elit. Veniam laborum velit corporis facere ut fuga quod porro, odit nihil ab! Lorem ipsum
+                dolor sit
+                amet consectetur adipisicing elit. Consequuntur, laboriosam.
+            </p>
+            <br>
+            <div style="font-size: 22px;" class="row">
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>App designing and research
+                </div>
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>Devlopment & Testing
+                </div>
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>App design & Research
+                </div>
+            </div>
+            <br>
+            <div style="font-size: 22px;" class="row">
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>Devlopment & Testing
+                </div>
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>Data Analysing
+                </div>
+                <div class="col-sm-4">
+                    <i class="rahul21 bi bi-check-circle"></i>Checking and managing
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+    <br><br>
+    <!-- our goal end -->
+
+    <!-- Core Features st -->
+    <div>
+        <h1 class="text-center sangam10">Core Features</h1>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="card-img-top sangam11"
+                            src="https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                        <div class="card-body"><span><i class="sangam12 bi bi-arrow-right-circle"></i></span>
+                            <div class="sangam13">
+                                <p>Software, interface</p>
+                                <h2><b>Devlopment </b></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="img-fluid sangam11"
+                            src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=1024x1024&w=is&k=20&c=YdGWQdXQYg-G1H89Q12soaleNQEKH9JpihwvrLdFHeA="
+                            alt="">
+                        <div class="card-body"><span><i class="sangam12 bi bi-arrow-right-circle"></i></span>
+                            <div class="sangam13">
+                                <p>Software, Design</p>
+                                <h2><b>Designer</b></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img class="img-fluid sangam11"
+                            src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRldmVsb3BtZW50JTIwbW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <div class="card-body"><span><i class="sangam12 bi bi-arrow-right-circle"></i></span>
+                            <div class="sangam13">
+                                <p>Software, Analaytic</p>
+                                <h2><b>Analaytic</b></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Core Features end -->
+
+    <!-- carrires st -->
+
+    <div class="sangam14 bg-dark">
+        <br><br><br>
+        <div class="container bg-light">
+            <div class="row p-5">
+                <div class="col-sm-7">
+                    <p><b>Careers</b></p>
+                    <h1 class="sangam15"><b>Join our team to <br>create best digital <br>solutions.</b></h1>
+                </div>
+                <div class="col-sm-5">
+                    <button type="button" class="btn btn-outline-success w-75 text-start"><i class="bi bi-gear"></i>
+                        Devlopment <i class="bi bi-arrow-right"></i></button>
+                    <br> <br><br><br>
+                    <button type="button" class="btn btn-outline-success w-75 text-start"><i class="bi bi-palette"></i>
+                        Design <i class="bi bi-arrow-right"></i></button>
+                    <br> <br><br><br>
+                    <button type="button" class="btn btn-outline-success w-75 text-start"><i class="bi bi-box"></i>
+                        Optimization <i class="bi-arrow-right"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <!-- carrires end -->
+
+    <!-- team experts st -->
+    <br><br><br>
+    <div>
+        <h5 class="text-center">Experts</h5>
+        <h1 class="text-center sangam16">Our Team Members</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid sangam17"
+                                src="https://media.licdn.com/dms/image/C4D03AQHw0F0jNGrYsw/profile-displayphoto-shrink_800_800/0/1663195351939?e=1682553600&v=beta&t=MARCGJglFp4RE6BWSPRdqj21wIIc4v57YR8AJYXsCG8"
+                                alt="">
+                            <br><br>
+                            <h4 class="text-center"><b>John Smith</b></h4>
+                            <p class="text-center"><b>Programmer</b></p>
+                        </div>
+
+                        <div class="sangam18">
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-facebook"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-instagram"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-twitter"></i></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid sangam17"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDPcFCiz8zSzS2rFBWu3kr8psw3y0D9l5vQ&usqp=CAU"
+                                alt=""><br><br>
+                            <h4 class="text-center"><b>Sarah palmer</b></h4>
+                            <p class="text-center"><b>Manager</b></p>
+                        </div>
+                        <div class="sangam18">
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-facebook"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-instagram"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid sangam17"
+                                src="https://media.licdn.com/dms/image/C4D03AQHoeoTsW0u2Ag/profile-displayphoto-shrink_800_800/0/1548280409365?e=2147483647&v=beta&t=Xfoii-pUgZbhBV8qzFfrKwXtzAKM0w4pZJXV2Wh3M38"
+                                alt=""><br><br>
+                            <h4 class="text-center"><b>Adam swift</b></h4>
+                            <p class="text-center"><b>Analyst</b></p>
+                        </div>
+                        <div class="sangam18">
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-facebook"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-instagram"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid sangam17"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzmGgkeLDGrurCXBlYej3nb9EayGmYRAyqAw&usqp=CAU"
+                                alt=""><br><br>
+                            <h4 class="text-center"><b>Helen Smith</b></h4>
+                            <p class="text-center"><b>Designer</b></p>
+                        </div>
+                        <div class="sangam18">
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-facebook"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-instagram"></i></span>
+                            <span class="px-1"><i class="sangam19 fs-4 border border-5-dark bi bi-twitter"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team experts end -->
+    <br>
+    <br><br>
+
+    <!-- Group photo and preview st -->
+    <div>
+        <img class="img-fluid sangam20"
+            src="https://media.istockphoto.com/id/1181787605/photo/banner-of-asian-happy-business-creative-team-in-routine-work-creative-lifestyle-sitting-and.jpg?s=1024x1024&w=is&k=20&c=Xngp-itBAdVI4DaUx6UShM-kG23tn_LQq2EU5uGpHfo="
+            alt="">
+        <div class="container bg-light sangam21">
+            <br>
+            <div class="row">
+                <div class="col-sm-2">
+                    <p>Cleints<br>
+                        <b>Art Museum</b>
+                    </p>
+                </div>
+                <div class="col-sm-2">
+                    <p>Services <br> <b>Website</b></p>
+                </div>
+                <div class="col-sm-2">
+                    <p>Durations <br><b>10-30 Days</b></p>
+                </div>
+                <div class="col-sm-2">
+                    <p>Tools <br><b>Figma</b></p>
+                </div>
+                <div class="col-sm-4 text-end"><button type="button"
+                        class="w-75 h-75 text-light btn btn-dark">Preview</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Group photo and preview end -->
+    <br>
+
+    <!--cilent feedback st  -->
+
+    <div class="bg-dark text-light">
+        <div class="container">
+            <br><br>
+            <h5 class="opacity-75">Testimonials</h5>
+            <h1 class="fs-1"><b>Our Client Feedbacks.</b></h1>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body bg-light text-dark">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore placeat animi ullam porro!
+                            Lorem ipsum
+                            dolor sit, amet consectetur adipisicing elit. Asperiores, aut. <span class="sangam22"><i
+                                    class="fs-1 bi bi-chat-quote"></i></span><br>
+                            <div class="d-flex">
+                                <img class="img-fluid w-25 sangam23"
+                                    src="https://media.licdn.com/dms/image/C4D03AQHw0F0jNGrYsw/profile-displayphoto-shrink_800_800/0/1663195351939?e=1682553600&v=beta&t=MARCGJglFp4RE6BWSPRdqj21wIIc4v57YR8AJYXsCG8"
+                                    alt="">
+                                <div>
+                                    <h3><b>John Smith</b></h3>
+                                    <p class="opacity-50">Programmer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body bg-light text-dark">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore placeat animi ullam porro!
+                            Lorem ipsum
+                            dolor sit, amet consectetur adipisicing elit. Asperiores, aut. <span class="sangam22"><i
+                                    class="fs-1 bi bi-chat-quote"></i></span><br>
+                            <div class="d-flex">
+                                <img class="img-fluid w-25 sangam23"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDPcFCiz8zSzS2rFBWu3kr8psw3y0D9l5vQ&usqp=CAU"
+                                    alt="">
+                                <div>
+                                    <h3><b>Sarah Palmer</b></h3>
+                                    <p class="opacity-50">Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body bg-light text-dark">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore placeat animi ullam porro!
+                            Lorem ipsum
+                            dolor sit, amet consectetur adipisicing elit. Asperiores, aut. <span class="sangam22"><i
+                                    class="fs-1 bi bi-chat-quote"></i></span><br>
+                            <div class="d-flex">
+                                <img class="img-fluid w-25 sangam23"
+                                    src="https://media.licdn.com/dms/image/C4D03AQHoeoTsW0u2Ag/profile-displayphoto-shrink_800_800/0/1548280409365?e=2147483647&v=beta&t=Xfoii-pUgZbhBV8qzFfrKwXtzAKM0w4pZJXV2Wh3M38"
+                                    alt="">
+                                <div>
+                                    <h3><b>Adam Swift</b></h3>
+                                    <p class="opacity-50">Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+    </div>
+    <!--cilent feedback end  -->
+
+
+    <!-- View in action st -->
+
+    <div class="sangam24">
+        <br>
+        <h1 class="text-center">View in Action</h1>
+        <video width="900" height="600" autoplay muted controls class="sangam25">
+            <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSJMDxCC4vmfqxhM6yxWFpH-vRcmHoe8DbGLA"
+                type="video/mp4">
+        </video>
+        <br><br>
+    </div>
+    <br><br><br>
+    <!-- View in action end -->
+
+    <!-- Share work details and end of page map st -->
+    <div class="bg-light">+_
+        <div class="container sangam26">
+            <div class="sangam27 px-5">
+                <br><br><br>
+                <h4>Estimate for project</h4>
+                <h1>Share work details</h1>
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input class="form-control w-100 fs-5" type="text" name="" id="" placeholder="Full Name">
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="form-control w-100 fs-5" type="text" name="" id="" placeholder="Email address">
+                    </div>
+                    <div class="col-sm-4">
+                        <input class="form-control w-100 fs-5" type="text" name="" id="" placeholder="Subject">
+                    </div>
+                </div>
+                <br>
+                <textarea class="form-control" name="" id="" cols="15" rows="7" placeholder="Work info"></textarea>
+                <br><button type="button" class="btn btn-dark fs-3 float-end">Subscribe now</button><br><br><br><br><br>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <img class="img-fluid w-100" style="height:560px;"
+            src="https://miro.medium.com/max/1200/1*qYUvh-EtES8dtgKiBRiLsA.png" alt="">
+    </div>
+
+    <p class="bg-dark text-center text-light sangam27"><i class="bi bi-c-circle sangam28 fs-5">Copyright 2025
+            Mobiries-All
+            right reserver</i>
+    </p>
+
+    <!-- Share work details end of page map end -->
+
+    <br><br>
+
+    <!-- added By rahul mehata st-->
+    <div class="container">
+        <h3 class="text-center alert alert-success">For help and contact</h3>
+        <div class="h-100 w-50">
+            <button type="button" class="btn btn-outline-info">Click here to chat with our customer
+                care</button><br><br>
+            <a href="mailto:rahulmahato@gmail.com"><button type="button" class="btn btn-outline-success">Send
+                    mail</button></a><br><br>
+            <button type="button" class="btn btn-outline-primary">about</button><br><br>
+            <button type="button" class="btn btn-outline-primary">More</button><br>
+
+            <br>
+            <h2 class="bg-dark text-light">Sorry This website is not a made for Smart phone and small screens <i
+                    class="bi bi-emoji-frown"></i> {only laptop/Pc} <br><br>
+                because my lot of knowledge!
+                <br>But I assured that i will make responsive and attractive website in future.. <br><br> <mark
+                    class="bg-primary">Rahul
+                    Mehata</mark>
+            </h2>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="bg-warning text-center w-100">Thanks for visiting my website
+            <br>Have a nice day <i class="bi bi-emoji-smile"></i>..
+        </h1>
+    </div>
+
+    <!-- added By rahul mehata end-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
